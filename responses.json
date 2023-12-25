@@ -1,0 +1,141 @@
+{
+  "CarrerasController": {
+    "GET-/carrera?searchParams": {
+      "carreras": [
+        {
+          "id": 0,
+          "nombre": "",
+          "publica": true,
+          "direccion": "",
+          "planDeEstudiosUrl": "",
+          "precioCuota": 0,
+          "cargaHorarioSemanal": 0,
+          "tiempoPromedioFinalizacion": 0,
+          "porcentajeDesercion": 0,
+          "estadisticas": {
+            "exigenciaAcademica": 0,
+            "relacionCalidadPrecio": 0,
+            "politizacion": 0,
+            "calidadAdministrativa": 0,
+            "disponibilidadDeHorarios": 0,
+            "calidadDeProfesores": 0,
+            "dificultadIngreso": 0,
+            "bolsaDeTrabajo": 0,
+            "salidaLaboral": 0,
+            "infraestructura": 0,
+            "satisfaccionProfesion": 0,
+            "calidadUniversidad":  0
+          }
+        }
+      ]
+    },
+    "GET-/carrera/{id}": {
+      "id": 0,
+      "nombre": "",
+      "publica": true,
+      "direccion": "",
+      "planDeEstudiosUrl": "",
+      "precioCuota": 0,
+      "cargaHorarioSemanal": 0,
+      "tiempoPromedioFinalizacion": 0,
+      "porcentajeDesercion": 0,
+      "estadisticas": {
+        "exigenciaAcademica": 0,
+        "relacionCalidadPrecio": 0,
+        "politizacion": 0,
+        "calidadAdministrativa": 0,
+        "disponibilidadDeHorarios": 0,
+        "calidadDeProfesores": 0,
+        "dificultadIngreso": 0,
+        "bolsaDeTrabajo": 0,
+        "salidaLaboral": 0,
+        "infraestructura": 0,
+        "satisfaccionProfesion": 0,
+        "calidadUniversidad": 0
+      }
+    },
+    "GET-/facultad?searchParams": {
+      "facultades": [
+        {
+          "id": 0,
+          "nombre": "",
+          "imagen": "",
+          "publica": "",
+          "direccion": "",
+          "paginaWeb": "",
+          "universidadId": 0,
+          "estadisticas": {
+            "exigenciaAcademica": 0,
+            "relacionCalidadPrecio": 0,
+            "politizacion": 0,
+            "calidadAdministrativa": 0,
+            "disponibilidadDeHorarios": 0,
+            "calidadDeProfesores": 0,
+            "dificultadIngreso": 0,
+            "bolsaDeTrabajo": 0,
+            "salidaLaboral": 0,
+            "infraestructura": 0,
+            "satisfaccionProfesion": 0,
+            "calidadUniversidad": 0
+          }
+        }
+      ]
+    },
+    "GET-/facultad/{id}": {
+      "id": 0,
+      "nombre": "",
+      "publica": true,
+      "direccion": "",
+      "planDeEstudiosUrl": "",
+      "precioCuota": 0,
+      "cargaHorarioSemanal": 0,
+      "tiempoPromedioFinalizacion": 0,
+      "porcentajeDesercion": 0,
+      "estadisticas": {
+        "exigenciaAcademica": 0,
+        "relacionCalidadPrecio": 0,
+        "politizacion": 0,
+        "calidadAdministrativa": 0,
+        "disponibilidadDeHorarios": 0,
+        "calidadDeProfesores": 0,
+        "dificultadIngreso": 0,
+        "bolsaDeTrabajo": 0,
+        "salidaLaboral": 0,
+        "infraestructura": 0,
+        "satisfaccionProfesion": 0,
+        "calidadUniversidad": 0
+      }
+    },
+    "GET-/universidad?searchParams": {
+      "universidades": [
+        {
+          "id": 0,
+          "nombre": "",
+          "publica": true,
+          "logo": "",
+          "direccion": "",
+          "planDeEstudiosUrl": "",
+          "precioCuota": 0,
+          "cargaHorarioSemanal": 0,
+          "tiempoPromedioFinalizacion": 0,
+          "porcentajeDesercion": 0,
+          "estadisticas": {
+            "exigenciaAcademica": 0,
+            "relacionCalidadPrecio": 0,
+            "politizacion": 0,
+            "calidadAdministrativa": 0,
+            "disponibilidadDeHorarios": 0,
+            "calidadDeProfesores": 0,
+            "dificultadIngreso": 0,
+            "bolsaDeTrabajo": 0,
+            "salidaLaboral": 0,
+            "infraestructura": 0,
+            "satisfaccionProfesion": 0,
+            "calidadUniversidad": 0
+          }
+        }
+      ]
+    }
+    "GET-/posts?searchParams":  {}
+  }
+}
