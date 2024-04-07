@@ -1,17 +1,21 @@
 version: '3.4'
 
 services:
-  db:
-    container_name: app-db
-    image: mcr.microsoft.com/mssql/server:2019-latest
-    user: root
-    environment:
-      - ACCEPT_EULA=Y
-      - SA_PASSWORD=admin123aa1!
-    ports:
-      - "1450:1433"
-    volumes:
-      - db-data:/var/opt/mssql/data/
+  universidades-api:
+    container_name: universidades-api
+    build:
+      context: .
+      dockerfile: UniversidadesAPI/Dockerfile
+    ports: 
+      - 8001:80
+      - 8002:443
+    environment: 
+      - connectionStrings__DefaultConnection=
+    networks:
+      - universidades-api-network
+
+networks:
+  universidades-api-network:
 
 volumes:
   db-data:
